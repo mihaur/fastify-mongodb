@@ -4,11 +4,14 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+      time: "16:00"
+      timezone: "CET"
     open-pull-requests-limit: 10
 
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "12:40"
+      time: "18:30"
+      timezone: "CET"
     open-pull-requests-limit: 10
